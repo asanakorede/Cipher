@@ -8,7 +8,7 @@ $(document).ready(function () {
     function newString() {
         let value = text.charAt(0) + text.charAt(text.length - 1);
         value.toUpperCase();
-        return value.toString();
+        return value.toSring();
     }
 
 
