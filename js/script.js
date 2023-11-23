@@ -3,12 +3,13 @@ $(document).ready(function () {
     let sentence = prompt("Type your sentence here");
     var text = sentence;
 
+
     //to get the first and last letter of my sentence and turn to a string
 
     function newString() {
         let value = text.charAt(0) + text.charAt(text.length - 1);
         value.toUpperCase();
-        return value.toSring();
+        return value.toString();
     }
 
 
@@ -21,7 +22,7 @@ $(document).ready(function () {
         return reverse.toString();
     }
 
-    //Third Function
+    //Third Function 
 
     function callFunctions() {
         newString();
@@ -29,12 +30,32 @@ $(document).ready(function () {
         return text + reverseNewString();
     }
 
-    function countCharacters(){
-        text.length;
-         (text.length)/2;
-        return ind
+    //Function to count characters in the string
+
+    function countCharacters() {
+        var characterCount = text.length;
+        let indexLetter = parseInt(text.length / 2);
+        return indexLetter;
     }
 
+    //function to determine the character from the pre-called function
+
+    function determineCharacter() {
+        return countCharacters().charAt();
+    }
+
+    //function to reverse the content of the string
+
+    function reverse() {
+        text.split;
+        return text.split('').reverse().join('');
+    }
+
+    //function to make images clickable and display a brief alert text
+
+    $("img").click(function () {
+        alert("This is my image");
+    })
 
 
 
@@ -69,6 +90,8 @@ $(document).ready(function () {
 
 
 
+
+    1``````````````````````````````````
 
 
 
