@@ -48,7 +48,7 @@ $(document).ready(function () {
 
     function reverse() {
         text.split;
-        return text.split('').reverse().join('');
+        return text.split('').revere().join('');
     }
 
     //function to make images clickable and display a brief alert text
